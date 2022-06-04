@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*Sempre colocar para não estragar tudo*/
+    box-sizing: border-box;
+}
+/*Formatar o bagulho todo*/
+body{
+    width: 680px;
+    height: auto;
+    margin: 0 auto;
+    background-color: slategrey;
+    text-align: center;
+    padding-top: 45px;
+    
+}
+/*Formatar o H1 em geral*/
+h1{
+    font-size: 36px;
+    color: royalblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    margin: 20px;
+    margin-top: 20px;
+}
+img{
+    width: 180px;
+    height: auto;
+    border-radius: 90px;
+    border: 2px solid rgb(255,255,255);
+}
+main{
+    background-color: slategrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+section{
+    background-color: skyblue;
+    border-radius: 20px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    margin-top: 40px;      
+}
+section a img {
+    width: 40px;
+    height: 40px;
+    border: 0;
+}
+section a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;  
+}
